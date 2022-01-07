@@ -1,0 +1,59 @@
+h1:hover{
+    color: #fff;
+    padding: 50px;
+    background-color: dimgrey;
+}
+.one:hover{
+    border: 5px solid rgb(255, 153, 0);
+    border-radius: 5px;
+    font-weight: 700;
+    color: honeydew;
+    background-color: slategrey;
+}
+a:visited{
+    color: teal;
+    font-weight: 700;
+}
+li{
+    font-size: 50px;
+}
+li:first-child{
+    color: tomato;
+
+   
+}
+li:last-child{
+    color: red;
+}
+li:nth-child(2n){
+    color:aquamarine
+}
+li:nth-child(2n+1){
+    background-color: burlywood;
+}
+h2::before{
+    content: 'Hello ';
+    font-size: 50px;
+    color: cadetblue;
+}
+h2::after{
+    content: ' Gelo World';
+    font-size: 50px;
+    color: cadetblue;
+}
+.pera{
+                   /* 5 doroner position */
+ /* position: relative;
+    position: absolute;
+    position: static;
+    position: fixed;
+    z-index:10px
+    z-index:-10 */
+    position: sticky;
+
+    left: 0px;
+    top: 0px;
+}
+div{
+    font-size: 50px;
+}
